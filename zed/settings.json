@@ -1,0 +1,54 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "assistant": {
+        "default_model": {
+            "provider": "zed.dev",
+            "model": "claude-3-5-sonnet-latest"
+        },
+        "version": "2"
+    },
+    "collaboration_panel": {
+        "dock": "left"
+    },
+    "project_panel": {
+        "dock": "left"
+    },
+    "base_keymap": "VSCode",
+    "theme": "Ayu Mirage",
+    "ui_font_family": "0xProto Nerd Font Mono",
+    "buffer_font_family": "0xProto Nerd Font Mono",
+    "terminal": {
+        "font_family": "0xProto Nerd Font Mono"
+    },
+    "languages": {
+        "JavaScript": {
+            "formatter": "auto",
+            "code_actions_on_format": {
+                "source.fixAll.eslint": false
+            }
+        }
+    },
+    "lsp": {
+        "clangd": {
+            "header-insertion": "never"
+        },
+        "pyright": {
+            "settings": {
+                "python": {
+                    "pythonPath": ".venv/bin/python"
+                }
+            }
+        }
+    },
+    "format_on_save": "language_server",
+    "formatter": "language_server",
+    "tab_size": 4,
+    "hover_popover_delay": 100
+}
