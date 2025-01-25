@@ -29,7 +29,7 @@ function gsshx {
         fi
 
         case $zone in
-                ase1b)  zone="asia-southeast1-b";;                                                                                                                           172,1-8       56%
+                ase1b)  zone="asia-southeast1-b";;
                 as1a)   zone="asia-south1-a";;
                 as1c)   zone="asia-south1-c";;
                 uc1c)   zone="us-central1-c";;
