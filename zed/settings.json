@@ -32,7 +32,8 @@
             "formatter": "auto",
             "code_actions_on_format": {
                 "source.fixAll.eslint": false
-            }
+            },
+            "tab_size": 4
         }
     },
     "lsp": {
@@ -49,6 +50,5 @@
     },
     "format_on_save": "language_server",
     "formatter": "language_server",
-    "tab_size": 4,
     "hover_popover_delay": 100
 }
