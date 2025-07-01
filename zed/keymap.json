@@ -9,7 +9,13 @@
   {
     "context": "Workspace",
     "bindings": {
-      // "shift shift": "file_finder::Toggle"
+      // "shift shift": "file_finder::Toggle",
+      // activate pane down with alt j
+      // activate pane up with alt k
+      "alt-j": "workspace::ActivatePaneDown",
+      "alt-k": "workspace::ActivatePaneUp",
+      "alt-h": "workspace::ActivatePaneLeft",
+      "alt-l": "workspace::ActivatePaneRight"
     }
   },
   {
